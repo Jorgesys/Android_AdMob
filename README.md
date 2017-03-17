@@ -4,6 +4,6 @@ Android Sample using AdMob. Buna!, this example loads a "Large Banner" with size
 Must have referenced appcompat_v7 and google-play-services libraries.
 
 Don´t forget to add your banner AD UNIT ID into the strings.xml whose format must be: ca-app-pub-xxxxxxxxxxxxxxx/xxxxxxxxxx
-any question write to jorgesys12@gmail.com
+any question contact me @ http://stackoverflow.com/users/250260/jorgesys
 
 pa!
