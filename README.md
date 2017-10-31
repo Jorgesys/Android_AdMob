@@ -7,3 +7,9 @@ Don´t forget to add your banner AD UNIT ID into the strings.xml whose format mu
 any question contact me @ http://stackoverflow.com/users/250260/jorgesys
 
 pa!
+
+
+# What does it look like?
+
+![Jorgesys](https://i.stack.imgur.com/3e0Qp.gif)
+
