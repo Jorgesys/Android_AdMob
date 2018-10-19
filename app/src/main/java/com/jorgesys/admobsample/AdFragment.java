@@ -23,10 +23,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 
 public class AdFragment extends Fragment {
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 	                         Bundle savedInstanceState) {
@@ -37,6 +38,9 @@ public class AdFragment extends Fragment {
 	@Override
 	public void onActivityCreated(Bundle bundle) {
 	    super.onActivityCreated(bundle);
+
+		MobileAds.initialize(getActivity(), getResources().getString(R.string.banner_ad_unit_id));
+
 	    AdView mAdView = (AdView) getView().findViewById(R.id.adView);
 	    AdRequest adRequest = new AdRequest.Builder().build();
 	    mAdView.loadAd(adRequest);

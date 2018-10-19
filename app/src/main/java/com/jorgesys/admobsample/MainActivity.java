@@ -14,6 +14,16 @@ package com.jorgesys.admobsample;
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Project updated 19 Oct 2018
+ *
+ *  ******************************************************************************
+ * The Google Mobile Ads SDK was initialized incorrectly. AdMob publishers    *
+ * should follow the instructions here: https://goo.gl/fQ2neu to add a valid  *
+ * App ID inside the AndroidManifest. Google Ad Manager publishers should     *
+ * follow instructions here: https://goo.gl/h17b6x.                           *
+ ******************************************************************************
+ *
  */
 
 
@@ -21,7 +31,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -30,7 +40,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
