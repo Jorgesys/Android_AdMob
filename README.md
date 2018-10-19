@@ -6,6 +6,9 @@ Must have referenced appcompat_v7 and google-play-services libraries.
 Don´t forget to add your banner AD UNIT ID into the strings.xml whose format must be: ca-app-pub-xxxxxxxxxxxxxxx/xxxxxxxxxx
 any question contact me @ http://stackoverflow.com/users/250260/jorgesys
 
+AdMob Get Started
+https://developers.google.com/ad-manager/mobile-ads-sdk/android/quick-start#update_your_androidmanifestxml
+
 pa!
 
 # What does it look like?
