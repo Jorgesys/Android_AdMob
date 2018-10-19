@@ -29,6 +29,7 @@ package com.jorgesys.admobsample;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -106,8 +107,12 @@ public class MainActivity extends AppCompatActivity {
             // Create an ad request. Check logcat output for the hashed device ID to
             // get test ads on a physical device. e.g.
             // "Use AdRequest.Builder.addTestDevice("ABCDEF012345") to get test ads on this device."
+            MobileAds.initialize(getActivity(), getResources().getString(R.string.banner_ad_unit_id));
+
             AdRequest adRequest = new AdRequest.Builder()
                     .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    //Use your own Test Device Id, from LogCat :  Use AdRequest.Builder.addTestDevice("xxxxxxxxxxxx") to get test ads on this device.
+                    .addTestDevice("78B57EC3DB8621DE913FDD38E739A667")
                     .build();
 
             // Start loading the ad in the background.
